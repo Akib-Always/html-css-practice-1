@@ -6,7 +6,7 @@
 .header{
     background-color: #F1F1F3;
     color: #fff;
-    padding: 5%;
+    padding: 2% 10%;
 }
 .navigation{
     display: flex;
@@ -15,4 +15,78 @@
 }
 .navigation h1{
     color: #0E0E0E;
+    font-size: 32px;
+    font-weight: bold;
+
+}
+.navigation ul li > a{
+    text-decoration: none;
+    color: #006A50;
+    font-size: 18px;
+    font-weight: 600;
+    border: 1px solid #006A50;
+    padding: 15px 25px;
+    border-radius: 8px;
+}
+.navigation ul li > a:hover{
+    background-color: #006A50;
+    color: #fff;
+    transition: 1s;
+}
+.navigation ul li{
+    list-style: none;
+}
+.contain{
+    background-color: #F1F1F3;
+    padding: 2% 10%;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* margin-top: 5%; */
+    padding: 5%;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+
+}
+.left-banner{
+    /* width: 55%; */
+    padding-right: 3%;
+}
+.banner-opa{
+    color: #0E0E0E;
+    opacity: 0.5;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+.banner-head {
+    color: #0E0E0E;
+    font-size: 56px;
+    font-weight: bold;
+    /* padding-right: 2%; */
+    /* line-height: 50px; */
+}
+.banner-btn .button{
+    margin-top: 15px;
+    background-color: #006A50;
+    font-size: 18px;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    padding: 2% 2%;
+    cursor: pointer;
+    transition: 1s;
+    display: inline-block;
+    margin-top: 30px;
+    text-decoration: none;
+    text-decoration: none;
+}
+.banner-btn .button:hover{
+    background-color: transparent;
+    color: #006A50;
+    display: inline-block;
+    border: 1px solid #006A50;
 }
