@@ -90,3 +90,184 @@
     display: inline-block;
     border: 1px solid #006A50;
 }
+.pillars-site{
+    margin-top: 3%;
+}
+.pillars-head h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    gap: 15px;
+}
+.cards{
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 24px;
+    width: 25%;
+    padding: 2%;
+}
+.cards:hover{
+    background-color: #71b88e;
+    transition: 1s;
+    
+}
+.down{
+    margin-top: 15px;
+    opacity: 0.6;
+    font-size: 18px;
+}
+.text-bold{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+#Vision_of_Future{
+    margin-top: 3%;
+}
+.energy_-1  > h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+.energy_-2 p{
+    margin-top: 25px;
+    opacity: 0.4;
+    width: 90%;
+}
+.energy_-3{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 25px;
+}
+.energy_-3{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 25px;
+}
+.energy_-3 > .digital-card_1{
+    background-color: #85aae9;
+    /* opacity: 0.5; */
+}
+.energy_-3 > .digital-card_2{
+    background-color: #C6E4D6;
+    /* opacity: 0.5; */
+}
+.energy_-3 > .digital-card_3{
+    background-color: #F7EBCF;
+    /* opacity: 0.5; */
+}
+.brdr{
+    padding: 20px;
+    border-radius: 24px;
+    padding: 3%;
+}
+.energy_-3 > .digital-card_1:hover{
+    background-color: #27ae60;
+    transition: 1s;
+}
+.energy_-3 > .digital-card_2:hover{
+    background-color: #044921;
+    transition: 1s;
+    color: white;
+}
+.energy_-3 > .digital-card_3:hover{
+    background-color: #91d229;
+    transition: 1s;
+    color: white;
+}
+.drop{
+    margin-top: 30px;
+    font-size: 28px;
+    font-weight: bold;
+}
+.drops{
+    margin-top: 45px;
+    opacity: 0.6;
+    font-size: 20px;
+}
+
+.a-btn-1{
+    background-color: #5490F5;
+    margin-top: 30px;
+    border: 2px solid rgb(166, 184, 139);
+    font-size: 18px;
+    color: white;
+    border: 2px solid rgb(166, 184, 139);
+    border-radius: 8px;
+    text-decoration: none;
+    padding: 16px 32px;
+    cursor: pointer;
+    transition: 1s;
+    display: inline-block;
+}
+.a-btn-1:hover{
+    background-color: transparent;
+    color: #fff;
+    transition: 1s;
+}
+.a-btn-2:hover{
+    background-color: transparent;
+    color: #fff;
+    transition: 1s;
+}
+.a-btn-3:hover{
+    background-color: transparent;
+    color: #fff;
+    transition: 1s;
+}
+.a-btn-2{
+    background-color: #09A15C;
+    margin-top: 30px;
+    border: 2px solid rgb(166, 184, 139);
+    font-size: 18px;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    padding: 16px 32px;
+    cursor: pointer;
+    transition: 1s;
+    display: inline-block;
+}
+.a-btn-3{
+    background-color: #FFC239;
+    margin-top: 30px;
+    border: 2px solid rgb(166, 184, 139);
+    font-size: 18px;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    padding: 16px 32px;
+    cursor: pointer;
+    transition: 1s;
+    display: inline-block;
+}
+.energy_-4{
+    border: 1px solid #ddd;
+    border-radius: 24px;
+    padding: 3%;
+    margin-top: 3%;
+    background: url(assets/quote-bg.png);
+    background-color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-position: 50px 20px;
+}
+.history{
+    opacity: 0.7;
+    line-height: 25px;
+}
+.dr{
+    margin-top: 25px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.Chief{
+    margin-top: 25px;
+    font-size: 18px;
+    /* font-weight: bold; */
+    opacity: .6;
+}
