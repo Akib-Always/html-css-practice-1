@@ -311,6 +311,11 @@ tbody tr  td > a{
     margin-left: 25%;
     border: 2px solid green;
 }
+tbody tr  td > a:hover{
+    background-color: #c2aa97;
+    color: white;
+    transition: 1s;
+}
 #Recent_News{
     margin-top: 3%;
 }
